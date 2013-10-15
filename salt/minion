@@ -1,0 +1,6 @@
+master: localhost
+file_client: local
+
+# One of 'info', 'quiet', 'critical', 'error', 'debug', 'warning'.
+log_level: debug
+#log_file: /var/log/salt/minion
