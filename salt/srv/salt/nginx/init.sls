@@ -21,6 +21,10 @@ nginx:
       - file: /etc/nginx/sites-enabled
       - module.run: nginx_configtest
 
+/etc/nginx/sites-enabled/default:
+  file:
+    - absent
+
 /etc/nginx/nginx.conf:
   file.managed:
     - source: salt://nginx/files/nginx.conf
