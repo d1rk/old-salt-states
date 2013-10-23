@@ -12,9 +12,6 @@ base:
       - pciutils
       - lsof
       - debian-goodies
-      - molly-guard
-      - logwatch
-      - apticron
 
 build-essential:
   pkg.installed
