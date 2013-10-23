@@ -1,6 +1,12 @@
 master: localhost
 file_client: local
+cache_jobs: True
+backup_mode: minion
 
-# One of 'info', 'quiet', 'critical', 'error', 'debug', 'warning'.
-log_level: debug
-#log_file: /var/log/salt/minion
+log_level: warning
+
+log_level_logfile: debug
+log_file: /var/log/salt/minion
+
+state_verbose: True
+state_output: full
